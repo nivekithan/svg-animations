@@ -1,6 +1,7 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import { AlignIcon } from "~/components/animations/alignIcon";
 import { TrashCan } from "~/components/animations/trashcan";
+import { TrashCan2 } from "~/components/animations/trashcan2";
 
 export const meta: MetaFunction = () => {
   return [
@@ -21,6 +22,7 @@ export default function Index() {
       <div className="flex flex-wrap gap-8 px-10">
         <TrashCan />
         <AlignIcon />
+        <TrashCan2 />
       </div>
     </main>
   );
