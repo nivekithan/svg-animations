@@ -1,6 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import { AlignIcon } from "~/components/animations/alignIcon";
 import { TrashCan } from "~/components/animations/trashcan";
-import { AnimationContainer } from "~/components/ui/animationContainer";
 
 export const meta: MetaFunction = () => {
   return [
@@ -18,10 +18,9 @@ export default function Index() {
       <div className="min-h-60 grid place-items-center ">
         <h1 className="text-3xl font-semibold">SVG Animations</h1>
       </div>
-      <div className="flex flex-wrap gap-4 px-10">
-        <AnimationContainer>
-          <TrashCan />
-        </AnimationContainer>
+      <div className="flex flex-wrap gap-8 px-10">
+        <TrashCan />
+        <AlignIcon />
       </div>
     </main>
   );
