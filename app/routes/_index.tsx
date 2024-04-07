@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
 import { AlignIcon } from "~/components/animations/alignIcon";
+import { PlusMinusDetail } from "~/components/animations/plusMinusDetail";
 import { TrashCan } from "~/components/animations/trashcan";
 import { TrashCan2 } from "~/components/animations/trashcan2";
 
@@ -23,6 +24,7 @@ export default function Index() {
         <TrashCan />
         <AlignIcon />
         <TrashCan2 />
+        <PlusMinusDetail />
       </div>
     </main>
   );
