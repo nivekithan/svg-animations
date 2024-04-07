@@ -1,35 +1,28 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import { TrashCan } from "~/components/animations/trashcan";
+import { AnimationContainer } from "~/components/ui/animationContainer";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "SVG Animations" },
     {
       name: "description",
-      content: "Welcome to Remix! Using Vite and Cloudflare!",
+      content: "Collections of svg animations I have made",
     },
   ];
 };
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix (with Vite and Cloudflare)</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-remix-site/"
-            rel="noreferrer"
-          >
-            Cloudflare Pages Docs - Remix guide
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
+    <main>
+      <div className="min-h-60 grid place-items-center ">
+        <h1 className="text-3xl font-semibold">SVG Animations</h1>
+      </div>
+      <div className="flex flex-wrap gap-4 px-10">
+        <AnimationContainer>
+          <TrashCan />
+        </AnimationContainer>
+      </div>
+    </main>
   );
 }
