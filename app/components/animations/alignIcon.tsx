@@ -6,10 +6,10 @@ export function AlignIcon() {
       <button className="w-[96px] aspect-square bg-gray-800 border border-900 rounded-md p-3 group">
         <svg aria-hidden="true" viewBox="0 0 24 24" width="100%">
           <g
-            stroke-linejoin="round"
-            stroke-linecap="round"
+            strokeLinejoin="round"
+            strokeLinecap="round"
             stroke="currentColor"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             fill="none"
           >
             <line x1="4" y1="4" x2="4" y2="20" />

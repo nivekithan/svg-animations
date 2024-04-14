@@ -8,9 +8,9 @@ export function PlusMinusDetail() {
           <svg aria-hidden="true" viewBox="0 0 24 24" width="20">
             <g
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <line
                 x1="12"

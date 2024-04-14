@@ -13,10 +13,10 @@ export function TrashCan() {
           <span>Delete</span>
           <svg aria-hidden="true" viewBox="0 0 24 24" width="32">
             <g
-              stroke-linejoin="round"
-              stroke-linecap="round"
+              strokeLinejoin="round"
+              strokeLinecap="round"
               stroke="currentColor"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               fill="none"
             >
               <g className="group-hover:translate-y-[2px] transition-transform duration-200">
